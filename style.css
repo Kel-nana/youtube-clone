@@ -12,8 +12,9 @@ nav {
   left: 0;
   right: 0;
   top: 0;
-  height: 50px;
-  background: gray;
+  height: 70px;
+  background: #333;
+  z-index: 1;
 }
 
 .begin {
@@ -32,23 +33,26 @@ nav {
   display: flex;
   align-items: center;
   justify-content: center;
+  display: inline-flex;
+  width: 80rem;
 }
 
 input {
-  height: 33px;
+  height: 43px;
   width: 35rem;
-  background-color: rgb(66, 59, 59);
-  border: 1.5px solid rgb(78, 74, 74);
+  background-color: #181818;
+  border: 2.5px solid rgb(32, 30, 30);
   border-top-left-radius: 2px;
   border-bottom-left-radius: 2px;
   margin-left: 7rem;
 }
 
 button {
-  height: 38px;
+  box-sizing: border-box;
+  height: 50px;
   width: 3.5rem;
-  background: rgb(78, 74, 74);
-  border: 1.5px solid rgb(78, 74, 74);
+  background: hsl(0, 0%, 18.82%);
+  border: 2.5px solid rgb(32, 30, 30);
   border-top-right-radius: 2px;
   border-bottom-right-radius: 2px;
 }
@@ -57,7 +61,7 @@ button {
   width: 40px;
   height: 40px;
   border-radius: 100%;
-  background: rgb(201, 189, 189);
+  background: rgb(32, 30, 30);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -73,4 +77,43 @@ button {
   width: 10rem;
   align-items: center;
   justify-content: space-evenly;
+  gap: 30px;
+}
+
+.fa-microphone,
+.fa-video-slash,
+.fa-bell {
+  color: azure;
+  font-size: 18px;
+}
+
+.fas {
+  color: azure;
+}
+
+.body-content {
+  background: #181818;
+  height: 100%;
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.micro-vid {
+  margin-top: 50px;
+}
+
+.btn {
+  margin-top: 50px;
+  color: wheat;
+  display: flex;
+  align-items: center;
+}
+
+h4 {
+  border: 1.5px solid wheat;
+  margin-right: 20px;
+  padding: 10px 25px;
+  border-radius: 20px;
+  font-size: 14px;
 }
