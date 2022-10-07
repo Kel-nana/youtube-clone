@@ -116,4 +116,9 @@ h4 {
   padding: 10px 25px;
   border-radius: 20px;
   font-size: 14px;
+  transition: all 1s ease;
+}
+
+h4:hover {
+  background-color: #3a3838;
 }
