@@ -1,0 +1,76 @@
+body {
+  margin: 0;
+  width: 100%;
+  height: 100vh;
+}
+
+nav {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  left: 0;
+  right: 0;
+  top: 0;
+  height: 50px;
+  background: gray;
+}
+
+.begin {
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+}
+
+.logo {
+  width: 100px;
+  height: 20px;
+  margin-left: 20px;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+input {
+  height: 33px;
+  width: 35rem;
+  background-color: rgb(66, 59, 59);
+  border: 1.5px solid rgb(78, 74, 74);
+  border-top-left-radius: 2px;
+  border-bottom-left-radius: 2px;
+  margin-left: 7rem;
+}
+
+button {
+  height: 38px;
+  width: 3.5rem;
+  background: rgb(78, 74, 74);
+  border: 1.5px solid rgb(78, 74, 74);
+  border-top-right-radius: 2px;
+  border-bottom-right-radius: 2px;
+}
+
+.circle {
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  background: rgb(201, 189, 189);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 20px;
+}
+
+.mic {
+  margin-left: 5px;
+}
+
+.end-icons {
+  display: flex;
+  width: 10rem;
+  align-items: center;
+  justify-content: space-evenly;
+}
